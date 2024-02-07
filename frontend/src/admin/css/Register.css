@@ -1,0 +1,80 @@
+/* Register.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../css/pemandangan.png') center/cover;
+}
+
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2rem;
+    background: #2f94fa00;
+}
+
+.text-center {
+    margin-bottom: 20px;
+}
+
+.h4 {
+    font-size: 1.8rem;
+    color: #ff000000; /* White text color for heading */
+}
+
+.form-control {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #fff; /* White border for input fields */
+}
+
+.btn-user {
+    background-color: #343a40; /* Dark color for button background */
+    color: #fff; /* White text color for button */
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s; /* Add a smooth transition effect on hover */
+}
+
+.btn-user:hover {
+    background-color: #21252900; /* Darker color for button background on hover */
+}
+
+.text-white {
+    color: #fff; /* White text color */
+}
+
+.text-danger {
+    color: #dc3545; /* Red color for error messages */
+}
+
+.small {
+    font-size: 0.9rem;
+    color: #fff; /* White text color for small text */
+}
+
+.text-end {
+    margin-top: 20px;
+    color: #fff; /* White text color */
+}

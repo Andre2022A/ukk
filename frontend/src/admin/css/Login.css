@@ -1,0 +1,110 @@
+/* Add your existing styles */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../css/pemandangan.png') center/cover;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ui.form {
+    width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    background: #ffffff1e;
+    animation: slideIn 1s ease-in-out;
+    color: #333; /* Set text color */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #000000; /* Change button color */
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000; /* Change button hover color */
+}
+
+.form-title {
+    text-align: center;
+    color: #000000; /* Change title color */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.field label {
+    color: #333;
+}
+
+.field input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.small {
+    color: #fff;
+    font-size: 14px;
+}
+
+.welcome-message {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* ... existing styles ... */
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.register-link-text {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.register-link-text:hover {
+    color: #ffffff;
+}
